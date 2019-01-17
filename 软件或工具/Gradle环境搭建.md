@@ -1,10 +1,7 @@
 # Gradle
 
 进入Gradle官网：[https://gradle.org/](https://gradle.org/)。
-
- ![](./Gradle环境搭建/图片1.png)
-
-
+![](./Gradle环境搭建/图片1.png)
 点击Install Gradle。
 
  ![](./Gradle环境搭建/图片2.png)
