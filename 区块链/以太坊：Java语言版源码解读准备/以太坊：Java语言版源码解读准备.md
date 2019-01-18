@@ -7,12 +7,12 @@
 
 ### 下载
 
-笔者于2019-01-10 20:12使用Git克隆了master分支到本地。  
+笔者使用Git克隆了master分支到本地。  
 ![](./引用/图片1.png)  
 
 ### IntelliJ IDEA打开
 
-为了打开源码，需要事先安装Gradle和Git，并配置它们的环境变量。  
+为了打开源码，需要事先安装[Gradle](../../软件或工具/Gradle环境搭建/Gradle环境搭建.md)和Git，并配置它们的环境变量。  
 
 使用IntelliJ IDEA打开./build.gradle。  
 ![](./引用/图片2.png)  
