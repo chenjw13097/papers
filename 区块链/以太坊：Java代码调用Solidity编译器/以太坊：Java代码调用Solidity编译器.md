@@ -1,6 +1,6 @@
 # 以太坊：Java代码调用Solidity编译器
 
-**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B.md)  
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9AJava%E4%BB%A3%E7%A0%81%E8%B0%83%E7%94%A8Solidity%E7%BC%96%E8%AF%91%E5%99%A8/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9AJava%E4%BB%A3%E7%A0%81%E8%B0%83%E7%94%A8Solidity%E7%BC%96%E8%AF%91%E5%99%A8.md)  
   
 定义一个合约，放到文件Test.sol中：  
 ![](./引用/图片1.png)  

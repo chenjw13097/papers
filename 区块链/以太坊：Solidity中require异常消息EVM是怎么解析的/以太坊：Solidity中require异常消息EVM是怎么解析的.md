@@ -1,6 +1,6 @@
 # 以太坊：Solidity中require异常消息EVM是怎么解析的
 
-**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B.md)  
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9ASolidity%E4%B8%ADrequire%E5%BC%82%E5%B8%B8%E6%B6%88%E6%81%AFEVM%E6%98%AF%E6%80%8E%E4%B9%88%E8%A7%A3%E6%9E%90%E7%9A%84/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9ASolidity%E4%B8%ADrequire%E5%BC%82%E5%B8%B8%E6%B6%88%E6%81%AFEVM%E6%98%AF%E6%80%8E%E4%B9%88%E8%A7%A3%E6%9E%90%E7%9A%84.md)  
   
 https://solidity-cn.readthedocs.io/zh/develop/control-structures.html?highlight=revert%20  
 ![](./引用/图片1.png)  
