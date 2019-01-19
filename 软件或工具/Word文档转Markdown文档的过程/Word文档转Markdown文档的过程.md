@@ -1,15 +1,17 @@
 # Word文档转Markdown文档的过程
 
-首先，使用在线转换器[http://word-to-markdown.herokuapp.com/](http://word-to-markdown.herokuapp.com/)，将Word文档转换为Markdown文档。
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E8%BD%AF%E4%BB%B6%E6%88%96%E5%B7%A5%E5%85%B7/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)  
 
-此Markdown文档有些语法是GitHub不支持的（笔者暂未找到GitHub提供的转换器），需要作如下转换：
+首先，使用在线转换器[http://word-to-markdown.herokuapp.com/](http://word-to-markdown.herokuapp.com/)，将Word文档转换为Markdown文档。  
+
+此Markdown文档有些语法是GitHub不支持的（笔者暂未找到GitHub提供的转换器），需要作如下转换：  
 ```
-1）~是删除线的语法，需要转义（正则表达式）
+1）~是删除线的语法，需要转义（Notepad++，正则表达式）
 ~
 \~
 ```
 
-补充GitHub上Markdown的语法：
+补充GitHub上Markdown的语法：  
 [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
 [https://github.com/waylau/github-help/blob/master/GitHub%20Flavored%20Markdown.md](https://github.com/waylau/github-help/blob/master/GitHub%20Flavored%20Markdown.md)  
 ```
@@ -17,7 +19,7 @@
 **bold**
 2）斜体字
 *italic*
-3）网页链接
+3）链接
 [link to Google!](http://google.com)
 4）要点
 * Start a line with a star
@@ -36,7 +38,9 @@
       return true
     }
 10）代码引用
-```
+\```
 或
-```javascript
+\```javascript
+11)转义Markdown特殊字符，如~
+\\~
 ```
