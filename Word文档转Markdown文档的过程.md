@@ -10,7 +10,8 @@
 ```
 
 补充GitHub上Markdown的语法：
-[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)  
+[https://github.com/waylau/github-help/blob/master/GitHub%20Flavored%20Markdown.md](https://github.com/waylau/github-help/blob/master/GitHub%20Flavored%20Markdown.md)  
 ```
 1）字体加粗
 **bold**
