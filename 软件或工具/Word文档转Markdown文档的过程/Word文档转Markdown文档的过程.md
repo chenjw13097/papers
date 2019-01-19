@@ -1,6 +1,6 @@
 # Word文档转Markdown文档的过程
 
-**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E8%BD%AF%E4%BB%B6%E6%88%96%E5%B7%A5%E5%85%B7/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)  
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E8%BD%AF%E4%BB%B6%E6%88%96%E5%B7%A5%E5%85%B7/Word%E6%96%87%E6%A1%A3%E8%BD%ACMarkdown%E6%96%87%E6%A1%A3%E7%9A%84%E8%BF%87%E7%A8%8B/Word%E6%96%87%E6%A1%A3%E8%BD%ACMarkdown%E6%96%87%E6%A1%A3%E7%9A%84%E8%BF%87%E7%A8%8B.md)  
 
 首先，使用在线转换器[http://word-to-markdown.herokuapp.com/](http://word-to-markdown.herokuapp.com/)，将Word文档转换为Markdown文档。  
 
