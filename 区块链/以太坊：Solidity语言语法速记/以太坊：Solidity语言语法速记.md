@@ -1,5 +1,7 @@
 # 以太坊：Solidity语言语法速记
 
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9ASolidity%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95%E9%80%9F%E8%AE%B0/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9ASolidity%E8%AF%AD%E8%A8%80%E8%AF%AD%E6%B3%95%E9%80%9F%E8%AE%B0.md)  
+
 ### 为创建智能合约而设计的语言
 
 Solidity是一门程序设计语言，为创建能在EVM上运行的智能合约而设计的。  
@@ -389,14 +391,14 @@ sha256(...)returns(bytes32):  计算 [(tightly packed) arguments](https://solidi
 sha3(...)returns(bytes32):  等价于 keccak256。  
 ripemd160(...)returns(bytes20):  计算 [(tightly packed) arguments](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi-packed-mode) 的 RIPEMD-160 哈希。  
 ecrecover(bytes32hash,uint8v,bytes32r,bytes32s)returns(address) ：  利用椭圆曲线签名恢复与公钥相关的地址，错误返回零值。 ([example usage](https://ethereum.stackexchange.com/q/1777/222))  
-<address>.balance (uint256):以 Wei 为单位的[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)的余额。  
-<address>.transfer(uint256 amount):向 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)发送数量为 amount 的 Wei，失败时抛出异常，发送 2300 gas 的矿工费，不可调节。  
-<address>.send(uint256 amount) returns (bool):向[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)发送数量为 amount 的 Wei，失败时返回 false，发送 2300 gas 的矿工费用，不可调节。  
+<address>.balance (uint256):以 Wei 为单位的地址类型的余额。  
+<address>.transfer(uint256 amount):向地址类型发送数量为 amount 的 Wei，失败时抛出异常，发送 2300 gas 的矿工费，不可调节。  
+<address>.send(uint256 amount) returns (bool):向地址类型发送数量为 amount 的 Wei，失败时返回 false，发送 2300 gas 的矿工费用，不可调节。  
 <address>.call(...) returns (bool):  发出低级函数 CALL，失败时返回 false，发送所有可用 gas，可调节。  
 <address>.callcode(...) returns (bool)：  发出低级函数 CALLCODE，失败时返回 false，发送所有可用 gas，可调节。  
 <address>.delegatecall(...) returns (bool):  发出低级函数 DELEGATECALL，失败时返回 false，发送所有可用 gas，可调节。  
-this (current contract&#39;s type):  当前合约，可以明确转换为[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
-selfdestruct(address recipient):  销毁合约，并把余额发送到指定[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
+this (current contract&#39;s type):  当前合约，可以明确转换为地址类型。  
+selfdestruct(address recipient):  销毁合约，并把余额发送到指定地址类型。  
 suicide(address recipient):  与 selfdestruct 等价，但已不推荐使用。  
 
 #### 控制结构
