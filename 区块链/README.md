@@ -8,3 +8,4 @@
 [以太坊：虚拟机执行过程](./以太坊：虚拟机执行过程/以太坊：虚拟机执行过程.md)  
 [以太坊：Java代码调用Solidity编译器](./以太坊：Java代码调用Solidity编译器/以太坊：Java代码调用Solidity编译器.md)  
 [以太坊：Solidity中require异常消息EVM是怎么解析的](./以太坊：Solidity中require异常消息EVM是怎么解析的/以太坊：Solidity中require异常消息EVM是怎么解析的.md)  
+[以太坊：事件、日志和布隆过滤器](./以太坊：事件、日志和布隆过滤器/以太坊：事件、日志和布隆过滤器.md)  
