@@ -373,8 +373,8 @@ msg.value (uint): 随消息发送的 wei 的数量
 now (uint): 目前区块时间戳（block.timestamp）  
 tx.gasprice (uint): 交易的 gas 价格  
 tx.origin (address): 交易发起者（完全的调用链）  
-abi.encode(...) returns (bytes)： [ABI](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi) - 对给定参数进行编码  
-abi.encodePacked(...) returns (bytes)：对给定参数执行 [紧打包编码](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi-packed-mode)  
+abi.encode(...) returns (bytes)：[ABI](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi)，对给定参数进行编码  
+abi.encodePacked(...) returns (bytes)：对给定参数执行[紧打包编码](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi-packed-mode)  
 abi.encodeWithSelector(bytes4 selector, ...) returns (bytes)： [ABI](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi) - 对给定参数进行编码，并以给定的函数选择器作为起始的 4 字节数据一起返回  
 abi.encodeWithSignature(string signature, ...) returns (bytes)：等价于 abi.encodeWithSelector(bytes4(keccak256(signature), ...)  
 assert(bool condition):  如果条件不满足，则使当前交易没有效果 — 用于检查内部错误。  
@@ -389,14 +389,14 @@ sha256(...)returns(bytes32):  计算 [(tightly packed) arguments](https://solidi
 sha3(...)returns(bytes32):  等价于 keccak256。  
 ripemd160(...)returns(bytes20):  计算 [(tightly packed) arguments](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html#abi-packed-mode) 的 RIPEMD-160 哈希。  
 ecrecover(bytes32hash,uint8v,bytes32r,bytes32s)returns(address) ：  利用椭圆曲线签名恢复与公钥相关的地址，错误返回零值。 ([example usage](https://ethereum.stackexchange.com/q/1777/222))  
-<address>.balance (uint256):  以 Wei 为单位的 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address) 的余额。  
-<address>.transfer(uint256 amount):  向 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address) 发送数量为 amount 的 Wei，失败时抛出异常，发送 2300 gas 的矿工费，不可调节。  
-<address>.send(uint256 amount) returns (bool):  向 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address) 发送数量为 amount 的 Wei，失败时返回 false，发送 2300 gas 的矿工费用，不可调节。  
+<address>.balance (uint256):以 Wei 为单位的[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)的余额。  
+<address>.transfer(uint256 amount):向 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)发送数量为 amount 的 Wei，失败时抛出异常，发送 2300 gas 的矿工费，不可调节。  
+<address>.send(uint256 amount) returns (bool):向[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)发送数量为 amount 的 Wei，失败时返回 false，发送 2300 gas 的矿工费用，不可调节。  
 <address>.call(...) returns (bool):  发出低级函数 CALL，失败时返回 false，发送所有可用 gas，可调节。  
 <address>.callcode(...) returns (bool)：  发出低级函数 CALLCODE，失败时返回 false，发送所有可用 gas，可调节。  
 <address>.delegatecall(...) returns (bool):  发出低级函数 DELEGATECALL，失败时返回 false，发送所有可用 gas，可调节。  
-this (current contract&#39;s type):  当前合约，可以明确转换为 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
-selfdestruct(address recipient):  销毁合约，并把余额发送到指定 [地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
+this (current contract&#39;s type):  当前合约，可以明确转换为[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
+selfdestruct(address recipient):  销毁合约，并把余额发送到指定[地址类型](https://solidity-cn.readthedocs.io/zh/develop/types.html#address)。  
 suicide(address recipient):  与 selfdestruct 等价，但已不推荐使用。  
 
 #### 控制结构
