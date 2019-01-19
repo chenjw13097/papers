@@ -37,10 +37,6 @@
     if (isAwesome){
       return true
     }
-10）代码引用
-\```
-或
-\```javascript
-11)转义Markdown特殊字符，如~
-\\~
+10)转义Markdown特殊字符，如~
+\~
 ```
