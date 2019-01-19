@@ -1,6 +1,6 @@
 # Gradle环境搭建
 
-欢迎转载，但须指明出处：[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E8%BD%AF%E4%BB%B6%E6%88%96%E5%B7%A5%E5%85%B7/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)  
+<font color=#ff9900>**欢迎转载，但须指明出处：**</font>[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E8%BD%AF%E4%BB%B6%E6%88%96%E5%B7%A5%E5%85%B7/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/Gradle%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)  
 
 进入Gradle官网：[https://gradle.org/](https://gradle.org/)。  
 ![](./引用/图片1.png)  
