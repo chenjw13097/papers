@@ -1,8 +1,8 @@
 # 以太坊：根据ABI得到调用合约所需的payload
 
-**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E4%BA%8B%E4%BB%B6%E3%80%81%E6%97%A5%E5%BF%97%E5%92%8C%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E4%BA%8B%E4%BB%B6%E3%80%81%E6%97%A5%E5%BF%97%E5%92%8C%E5%B8%83%E9%9A%86%E8%BF%87%E6%BB%A4%E5%99%A8.md)  
+**欢迎转载，但须指明出处：**[https://github.com/chenjw13097/papers](https://github.com/chenjw13097/papers/blob/master/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E6%A0%B9%E6%8D%AEABI%E5%BE%97%E5%88%B0%E8%B0%83%E7%94%A8%E5%90%88%E7%BA%A6%E6%89%80%E9%9C%80%E7%9A%84payload/%E4%BB%A5%E5%A4%AA%E5%9D%8A%EF%BC%9A%E6%A0%B9%E6%8D%AEABI%E5%BE%97%E5%88%B0%E8%B0%83%E7%94%A8%E5%90%88%E7%BA%A6%E6%89%80%E9%9C%80%E7%9A%84payload.md)  
 
-[https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html)  
+参考自：[https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html](https://solidity-cn.readthedocs.io/zh/develop/abi-spec.html)  
 
 ### ABI是payload编码的依据
 
@@ -15,16 +15,16 @@ ABI，应用二进制接口（Application Binary Interface）。它是从区块�
 ### 参数编码
 
 参数类型可以分为：  
-- 基础类型，如uint\&lt;M\&gt;、int\&lt;M\&gt;、address、uint、int、bool、fixed\&lt;M\&gt;x\&lt;N\&gt;、ufixed\&lt;M\&gt;x\&lt;N\&gt;、fixed、ufixed、bytes\&lt;M\&gt;、function。  
-- 定长数组类型：\&lt;type\&gt;[M]。  
-- 非定长数组类型：bytes、string（UTF-8）、\&lt;type\&gt;[]。  
+- 基础类型，如uint<M>、int<M>、address、uint、int、bool、fixed<M>x<N>、ufixed<M>x<N>、fixed、ufixed、bytes<M>、function。  
+- 定长数组类型：<type>[M]。  
+- 非定长数组类型：bytes、string（UTF-8）、<type>[]。  
   
 以下类型被称为&quot;动态&quot;：  
 - bytes  
 - string  
 - 任意类型 T 的变长数组 T[]  
-- 任意动态类型 T 的定长数组 T[k] （k \&gt;= 0）  
-- 由动态的 Ti （1 \&lt;= i \&lt;= k）构成的元组 (T1,...,Tk)  
+- 任意动态类型 T 的定长数组 T[k] （k >= 0）  
+- 由动态的 Ti （1 <= i <= k）构成的元组 (T1,...,Tk)  
 所有其他类型都被称为&quot;静态&quot;。  
 
 不同类型的参数编码方式不一样，下面以实际例子讲解。  
@@ -36,7 +36,7 @@ ABI，应用二进制接口（Application Binary Interface）。它是从区块�
 pragma solidity ^0.4.16;
 
 contract Foo {
-  function baz(uint32 x, bool y) public pure returns (bool r) { r = x \&gt; 32 || y; }
+  function baz(uint32 x, bool y) public pure returns (bool r) { r = x > 32 || y; }
   function bar(bytes3[2]) public pure {}
   function sam(bytes, bool, uint[]) public pure {}
 }
